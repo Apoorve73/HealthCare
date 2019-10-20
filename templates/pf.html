@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient's Window</title>
+</head>
+<body>
+    {% for i in iop %}
+    <h3>Patient Id = {{ i.patient_id }}</h3>
+    <h3>Full Name = {{ i.full_name }}</h3>
+    <h3>Email = {{ i.email }}</h3>
+    <h3>Occupation = {{ i.occupation }}</h3>
+    <h3>Gender = {{ i.gender }}</h3>
+    <h3>Address = {{ i.address }}</h3>
+    <h3>Date last seen in hospital = {{ i.date_last_seen }}</h3>
+    {% endfor %}
+</body>
+</html>

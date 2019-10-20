@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Officer's Window</title>
+</head>
+<body>
+    {% for i in iop %}
+    <h3>Patient Id = {{ i.patient_id }}</h3>
+    <h3>Full Name = {{ i.full_name }}</h3>
+    <h3>Email = {{ i.email }}</h3>
+    {% endfor %}
+</body>
+</html>

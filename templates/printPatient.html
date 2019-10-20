@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Details</title>
+</head>
+<body>
+        {% for i in iop%}
+        <h1>r{{ i.patient_id }}</h1>
+        <h1>t{{ i.full_name }}</h1>
+        {% endfor %}
+</body>
+</html>
